@@ -46,6 +46,7 @@
 #include "GreedyKCenters.h"
 #include "NearestNeighbors.h"
 #include <iostream>
+#include <random>
 
 namespace cached_ik_kinematics_plugin
 {
@@ -552,8 +553,12 @@ protected:
         std::vector<int> permutation(children_.size());
         for (unsigned int i = 0; i < permutation.size(); ++i)
           permutation[i] = i;
-        std::random_shuffle(permutation.begin(), permutation.end());
+        // Create a random device and generator
+        std::random_device rd;
+        std::mt19937 g(rd());
 
+        // Shuffle the vector
+        std::shuffle(permutation.begin(), permutation.end(), g);
         for (unsigned int i = 0; i < children_.size(); ++i)
           if (permutation[i] >= 0)
           {
@@ -606,8 +611,12 @@ protected:
         std::vector<int> permutation(children_.size());
         for (unsigned int i = 0; i < permutation.size(); ++i)
           permutation[i] = i;
-        std::random_shuffle(permutation.begin(), permutation.end());
+        // Create a random device and generator
+        std::random_device rd;
+        std::mt19937 g(rd());
 
+        // Shuffle the vector
+        std::shuffle(permutation.begin(), permutation.end(), g);
         for (unsigned int i = 0; i < children_.size(); ++i)
           if (permutation[i] >= 0)
           {
