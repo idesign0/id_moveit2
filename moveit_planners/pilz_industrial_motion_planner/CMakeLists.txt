@@ -98,6 +98,8 @@ add_library(joint_limits_common SHARED
   src/cartesian_limit.cpp
   src/cartesian_limits_aggregator.cpp
 )
+
+target_link_libraries(planning_context_loader_base joint_limits_common)
 ament_target_dependencies(joint_limits_common ${THIS_PACKAGE_INCLUDE_DEPENDS})
 
 add_library(trajectory_generation_common SHARED
@@ -105,13 +107,15 @@ add_library(trajectory_generation_common SHARED
   src/trajectory_generator.cpp
   src/trajectory_blender_transition_window.cpp
 )
+
+target_link_libraries(trajectory_generation_common joint_limits_common)
 ament_target_dependencies(trajectory_generation_common ${THIS_PACKAGE_INCLUDE_DEPENDS})
 
 add_library(command_list_manager SHARED
   src/command_list_manager.cpp
   src/plan_components_builder.cpp
 )
-target_link_libraries(command_list_manager trajectory_generation_common joint_limits_common)
+target_link_libraries(command_list_manager trajectory_generation_common)
 ament_target_dependencies(command_list_manager ${THIS_PACKAGE_INCLUDE_DEPENDS})
 
 #############
