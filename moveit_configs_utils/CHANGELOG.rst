@@ -2,6 +2,9 @@
 Changelog for package moveit_configs_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.14.0 (2025-06-13)
 -------------------
 

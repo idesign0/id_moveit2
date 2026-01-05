@@ -2,6 +2,9 @@
 Changelog for package moveit_ros_move_group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.14.0 (2025-06-13)
 -------------------
 * Adds multi (joint) state validation service (`#3426 <https://github.com/moveit/moveit2/issues/3426>`_)

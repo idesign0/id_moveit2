@@ -2,6 +2,9 @@
 Changelog for package moveit_ros_occupancy_map_monitor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.14.0 (2025-06-13)
 -------------------
 

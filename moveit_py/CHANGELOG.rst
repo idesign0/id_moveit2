@@ -2,6 +2,9 @@
 Changelog for package moveit_py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.14.0 (2025-06-13)
 -------------------
 * Fix arg name in PlanningScene stub file (`#3489 <https://github.com/moveit/moveit2/issues/3489>`_)
