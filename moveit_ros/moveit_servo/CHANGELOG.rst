@@ -14,8 +14,8 @@ Changelog for package moveit_servo
   Co-authored-by: Nathan Brooks <nathanbrooks@picknik.ai>
 * Contributors: mergify[bot]
 
-Forthcoming
------------
+2.14.2 (2026-01-04)
+-------------------
 * 2.14.1
 * 2.14.1
 * Fix severe warning from class loader in servo (`#3577 <https://github.com/moveit/moveit2/issues/3577>`_) (`#3648 <https://github.com/moveit/moveit2/issues/3648>`_)
