@@ -5,6 +5,12 @@ Changelog for package moveit_core
 2.14.1 (2026-01-04)
 -------------------
 
+Forthcoming
+-----------
+* 2.14.1
+* 2.14.1
+* Contributors: Nathan Brooks
+
 2.14.0 (2025-06-13)
 -------------------
 * Fix seg fault with attached objects during motion execution (`#3466 <https://github.com/moveit/moveit2/issues/3466>`_)

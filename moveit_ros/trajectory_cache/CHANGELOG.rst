@@ -5,6 +5,12 @@ Changelog for package moveit_ros_trajectory_cache
 2.14.1 (2026-01-04)
 -------------------
 
+Forthcoming
+-----------
+* 2.14.1
+* 2.14.1
+* Contributors: Nathan Brooks
+
 2.14.0 (2025-06-13)
 -------------------
 
