@@ -2,8 +2,8 @@
 Changelog for package moveit_servo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.14.1 (2026-01-04)
+-------------------
 * Fix severe warning from class loader in servo (`#3577 <https://github.com/moveit/moveit2/issues/3577>`_) (`#3648 <https://github.com/moveit/moveit2/issues/3648>`_)
   * Add class loader member variable instead of  creating on stack
   * Fix formatting to satisfy clang
