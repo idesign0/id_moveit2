@@ -5,6 +5,9 @@ Changelog for package moveit_resources_prbt_ikfast_manipulator_plugin
 2.14.1 (2026-01-04)
 -------------------
 
+Forthcoming
+-----------
+
 2.14.2 (2026-01-04)
 -------------------
 * 2.14.1
