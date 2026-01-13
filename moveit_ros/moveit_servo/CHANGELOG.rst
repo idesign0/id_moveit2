@@ -14,8 +14,8 @@ Changelog for package moveit_servo
   Co-authored-by: Nathan Brooks <nathanbrooks@picknik.ai>
 * Contributors: mergify[bot]
 
-Forthcoming
------------
+2.14.3 (2026-01-13)
+-------------------
 
 2.14.2 (2026-01-04)
 -------------------
