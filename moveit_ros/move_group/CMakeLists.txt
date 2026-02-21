@@ -64,7 +64,12 @@ ament_target_dependencies(moveit_move_group_capabilities_base ${THIS_PACKAGE_INC
 add_executable(move_group src/move_group.cpp)
 target_include_directories(move_group PUBLIC include)
 ament_target_dependencies(move_group  ${THIS_PACKAGE_INCLUDE_DEPENDS} Boost)
-target_link_libraries(move_group moveit_move_group_capabilities_base)
+
+if(APPLE)
+  target_link_libraries(move_group moveit_move_group_capabilities_base moveit_move_group_default_capabilities)
+else()
+  target_link_libraries(move_group moveit_move_group_capabilities_base)
+endif()
 
 add_executable(list_move_group_capabilities src/list_capabilities.cpp)
 ament_target_dependencies(list_move_group_capabilities  ${THIS_PACKAGE_INCLUDE_DEPENDS} Boost)
