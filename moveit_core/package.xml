@@ -42,6 +42,7 @@
   <depend>moveit_common</depend>
   <depend>moveit_msgs</depend>
   <depend>liboctomap-dev</depend>
+  <depend>octomap-distribution</depend>
   <depend>octomap_msgs</depend>
   <depend>osqp_vendor</depend>
   <depend>pluginlib</depend>
